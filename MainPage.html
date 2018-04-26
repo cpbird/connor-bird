@@ -8,8 +8,34 @@
 </head>
 
 <body>
-    <div id="topofpage">
-        <object type="image/svg+xml" data="logo.svg">Your browser does not support SVGs</object>
-    </div></body>
+    <div id="page" class="site">
+        <header id="site-banner" class=" site-header" ::before>
+            <!--Theres is where the logo goes, put it in css, its 210x210-->
+            <div id="top-bar-wrapper">
+                <!--This is where the top bar design will go in css, 1365x128-->
+                <div class="logo">
+                    <h1 class=" logo-header">
+                        <a href="https://connorbird.com/" rel="home">CB</a>
+                    </h1>
+                </div>
+                <!--Add in social class wrapper and hyperlinks for linkedin and github?-->
+                <nav id="site-navigation" class="main-navigation" style="overflow:visible" ; height:35px;">
+                    <div class="menu-container">
+                        <menu id="header-menu" class="menu nav-menu" aria-expanded="false">
+                            <li id="menu-item-1" class="menu-item-1"><a href="/">Home</a></li>
+                            <li id="menu-item-2" class="menu-item-2"><a href="https://connorbird/com/Resume">Resume</a></li>
+                            <li id="menu-item-3" class="menu-item-3"><a href="https://connorbird.com/Projects">Projects</a></li>
+                        </menu>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div id="content" class="main-content" ::before>
+            <div id="main-area" class="content"::after>
+            </div>
+        </div>
+        <!--footer?-->
+    </div>
+</body>
 
 </html>
