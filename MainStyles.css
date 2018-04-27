@@ -10,9 +10,37 @@ header#site-banner.site-header{
     margin-top: 45px;
 }
 div.top-bar-wrapper {
-    align-items: center;
+   
     background: #c9544b;
     margin: 0 auto; 
     width: 100%;
-   display: flex;
+    display: flex;
+  
+}
+
+div.logo{
+    order: 2;
+width: 10%;
+margin: 0 auto;
+}
+
+
+nav#site-navigation.main-navigation{
+   order: 1;
+   
+}
+
+ul#header-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
 }
