@@ -4,33 +4,87 @@ body {
     margin: 0 auto;
 }
 
+.site{
+    position:relative;
+    z-index:2;
+}
+
 header#site-banner.site-header{
     display: flex;
     position:relative;
     margin-top: 45px;
 }
+    header#site-banner.site-header::before {
+        background: #c9544b;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 50%;
+        margin: 0 auto;
+        width: 210px;
+        height: 210px;
+        z-index:-2;
+        
+    }
+.top-bar-wrapper::after, .site-header::before {
+    -ms-transform: translate(-50%,-18%);
+    transform: translate(-50%, -18%);
+    -webkit-transform: translate(-50%, -18%);
+}
 div.top-bar-wrapper {
-   
-    background: #c9544b;
-    margin: 0 auto; 
+    padding: 0 4%;
+    background: #242d36;
+    margin: 0 auto;
     width: 100%;
     display: flex;
-    border-top-style:solid;
+    position:relative;
+    border-top-style: solid;
     border-top-width: 5px;
-    border-top-color:black;
-    border-bottom-style:solid;
+    border-top-color: #c9544b;
+    border-bottom-style: solid;
     border-bottom-width: 5px;
-    border-bottom-color:black;
+    border-bottom-color: #c9544b;
+    z-index:5;
+
+}
+  
+    div.top-bar-wrapper::after {
+        background: #242d36;
+        border-radius: 50%;
+        content:"";
+        display: block;
+        position: absolute;
+        top: 2px;
+        left: 50%;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        z-index:-1;
+    
+        
+        
+       
+    }
+
+div.logo {
+    order: 2;
+    width: 200px;
+    margin: 0 auto;
+    padding: .8em 0;
+    width:25%;
+    z-index:3;
+    
 }
 
-div.logo{
-order: 2;
-width: 15%;
-margin: 0 auto;
-}
 
 h1.logo-header a{
     display:block;  
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:0px;
+    text-decoration:none;
 }
 
 
@@ -51,4 +105,7 @@ li {
 
 li a {
     padding: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    text-decoration:none;
 }
