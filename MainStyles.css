@@ -73,7 +73,7 @@ div.logo {
     width: 200px;
     margin: 0 auto;
     padding: .8em 0;
-    width:25%;
+    justify-content:center;
     z-index:3;
     
 }
@@ -82,30 +82,44 @@ div.logo {
 h1.logo-header a{
     display:block;  
     font-size: 50px;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom:0px;
     text-decoration:none;
+    text-align:right;
 }
 
 
-nav#site-navigation.main-navigation{
+nav#site-navigation.main-navigation-left{
    order: 1; 
+   margin:0 auto;
+   
+  
+}
+nav#site-navigation.main-navigation-right {
+    order:3;
+    margin: 0 auto;
 }
 
-ul#header-menu {
+ul.menu-nav-menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-top:2em;
+    padding-top:2.5em;
    
 }
-li {
+#header-menu-left li{
     float: left;
 }
 
-li a {
-    padding: 8px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:15px;
-    text-decoration:none;
+#header-menu-right li{
+    float: right;
 }
+li a {
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
