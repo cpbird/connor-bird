@@ -1,0 +1,41 @@
+Connor Bird
+St. Davids, PA 19087
+610-308-7133
+cpbird90@gmail.com
+
+Software Development Profile
+Multifaceted technical professional with extensive knowledge of C/C++ and Java software development
+Emerging Software Developer, with a proven ability to plan, administer, coordinate and execute full lifecycle software design and development projects. 
+* In-depth knowledge of software engineering technologies, programming languages and application development, with the ability to apply expertise to achieve key technical objectives. 
+* Adept at clearly establishing priorities and participating in the completion of complex, large-scale software engineering, design, testing and development projects. 
+* Outstanding ability to gather and translate complex client requirements into practical, reliable, cost-effective system solutions. 
+* Proactive problem solver. Develop software solutions with careful consideration to bottom-line, long-range goals, quality, feasibility and ease of use.
+
+* Full Lifecycle Software Development
+* Project Management
+* Programming
+* Troubleshooting & Issue Resolution
+* Application Development
+* C++ / Java
+* Agile/Scrum
+
+PROFESSIONAL EXPERIENCE
+Graduate Assistant (March 2014 – January 2018)	University Information Technologies, Villanova, PA 
+Developed software to coordinate classroom functions using proprietary programming software (SIMPL) procedural language similar to C. Modified programming in Law School systems to accommodate digital media. Designed and implemented custom pre-set programming. Assisted and supported clients in use and operation of technology.
+Key Achievements:
+* Developed database structure for inventory.
+* Reprogrammed each classroom in the Law School and created a headend program that would allow coordination and control of all rooms from a single station.
+
+EDUCATION & CREDENTIALS 
+VILLANOVA UNIVERSITY, Villanova, PA
+Master of Science in Software Engineering, 2017 GPA: 3.50
+Certificate in Information Systems, 2015 GPA: 3.74
+
+LEHIGH UNIVERSITY, Bethlehem, PA
+Bachelor of Arts in Behavioral Neuroscience, 2013
+
+TECHNICAL PROFICIENCIES
+Mac/Windows/Linux, Java, C/C++, SQL, git, Agile Methodology
+
+
+Github: cpbird
