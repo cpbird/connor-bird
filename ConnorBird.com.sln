@@ -7,11 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		MainPage.html = MainPage.html
 		MainStyles.css = MainStyles.css
+		Resume.html = Resume.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML Pages", "HTML Pages", "{67965F85-D6EE-4B2E-86C0-40B5F719FC64}"
+	ProjectSection(SolutionItems) = preProject
+		MainPage.html = MainPage.html
+		Resume.html = Resume.html
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67965F85-D6EE-4B2E-86C0-40B5F719FC64} = {8F9435A2-39D9-45E6-A917-C0AA88355BEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94A9808B-23D2-4715-978F-7E02AAE9C077}
