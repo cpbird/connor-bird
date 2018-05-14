@@ -5,13 +5,12 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F9435A2-39D9-45E6-A917-C0AA88355BEA}"
 	ProjectSection(SolutionItems) = preProject
-		MainPage.html = MainPage.html
 		MainStyles.css = MainStyles.css
-		Resume.html = Resume.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML Pages", "HTML Pages", "{67965F85-D6EE-4B2E-86C0-40B5F719FC64}"
 	ProjectSection(SolutionItems) = preProject
+		ContactInfo.html = ContactInfo.html
 		MainPage.html = MainPage.html
 		Resume.html = Resume.html
 	EndProjectSection
