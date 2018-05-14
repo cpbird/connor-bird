@@ -6,7 +6,7 @@ body {
 
 .site{
     position:relative;
-    z-index:2;
+   
 }
 
 header#site-banner.site-header{
@@ -25,7 +25,7 @@ header#site-banner.site-header{
         margin: 0 auto;
         width: 210px;
         height: 210px;
-        z-index:-2;
+        
         
     }
 .top-bar-wrapper::after, .site-header::before {
@@ -46,9 +46,10 @@ div.top-bar-wrapper {
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #c9544b;
-    z-index:5;
+   
 
 }
+
 
     div.top-bar-wrapper::after {
         background: #242d36;
@@ -61,7 +62,7 @@ div.top-bar-wrapper {
         margin: 0 auto;
         width: 200px;
         height: 200px;
-        z-index: -1;
+       
         
     }
 
@@ -71,8 +72,7 @@ div.logo {
     margin: 0 auto;
     padding: .8em 0;
     justify-content:center;
-    z-index:3;
-    
+    z-index:1;
 }
 
 
@@ -129,7 +129,12 @@ li a {
     text-decoration: none;
 }
 
-
+div#precontent.buffercontent {
+    background-color: antiquewhite;
+    display: block;
+    height: 50px;
+    z-index: -1;
+}
 div#content.main-content{
    display:block;
 }
@@ -140,7 +145,9 @@ div.main-area-wrapper {
     display: flex;
     position: relative;
     background-color:antiquewhite;
+  
 }
+
 
 div.about-website {
     text-align:center;
@@ -165,7 +172,7 @@ div.about-content{
 
 div.about-content p a{
     text-decoration:none;
-    color: black;
+   
 }
 div.about-image {
     width: 50%;
