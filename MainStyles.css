@@ -49,11 +49,11 @@ div.top-bar-wrapper {
     z-index:5;
 
 }
-  
+
     div.top-bar-wrapper::after {
         background: #242d36;
         border-radius: 50%;
-        content:"";
+        content: "";
         display: block;
         position: absolute;
         top: 2px;
@@ -61,11 +61,8 @@ div.top-bar-wrapper {
         margin: 0 auto;
         width: 200px;
         height: 200px;
-        z-index:-1;
-    
+        z-index: -1;
         
-        
-       
     }
 
 div.logo {
@@ -142,6 +139,7 @@ div.main-area-wrapper {
     width: 100%;
     display: flex;
     position: relative;
+    background-color:antiquewhite;
 }
 
 div.about-website {
