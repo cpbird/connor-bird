@@ -137,9 +137,10 @@ div#precontent.buffercontent {
 }
 div#content.main-content{
    display:block;
+
 }
 div.main-area-wrapper {
-    padding: 0 4%;
+   
     margin: 0 auto;
     width: 100%;
     display: flex;
@@ -200,4 +201,10 @@ h1.resume-title {
     font-size: 23px;
     margin: 0 0 .4em;
     text-transform: uppercase;
+}
+
+
+div.project-content {
+    width: 40%;
+   padding-left:10%;
 }
