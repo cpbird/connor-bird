@@ -4,10 +4,7 @@ body {
     margin: 0 auto;
 }
 
-.site{
-    position:relative;
-   
-}
+
 
 header#site-banner.site-header{
     display: flex;
@@ -212,5 +209,11 @@ div.project-content {
 div.Contact-content {
     width: 40%;
     padding-left: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        position: relative;
+    }
 }
                       }
