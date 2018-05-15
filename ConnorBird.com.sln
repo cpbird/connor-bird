@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML Pages", "HTML Pages", 
 	ProjectSection(SolutionItems) = preProject
 		ContactInfo.html = ContactInfo.html
 		MainPage.html = MainPage.html
+		Projects.html = Projects.html
 		Resume.html = Resume.html
 	EndProjectSection
 EndProject
