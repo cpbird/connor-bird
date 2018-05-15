@@ -213,157 +213,162 @@
 
 /* Mobile Phones:*/
 
-body {
-    background: #2e4453;
-    margin: 0 auto;
-}
-
-div.about-image {
-    display:none;
-}
-header#site-banner.site-header {
-    display: flex;
-    position: relative;
-    margin-top: 45px;
-}
-
-    header#site-banner.site-header::before {
-        background: #c9544b;
-        border-radius: 50%;
-        content: "";
-        display: block;
-        position: absolute;
-        top: 3px;
-        left: 50%;
+@media only screen and (max-width: 768px) {
+    body {
+        background: #2e4453;
         margin: 0 auto;
-        width: 210px;
-        height: 210px;
-    }
-    header#site-banner.site-header::before {
-        background: #c9544b;
-        border-radius: 50%;
-        content: "";
-        display: block;
-        position: absolute;
-        top: 3px;
-        left: 50%;
-        margin: 0 auto;
-        width: 210px;
-        height: 210px;
     }
 
-.top-bar-wrapper::after, .site-header::before {
-    -ms-transform: translate(-50%,-18%);
-    transform: translate(-50%, -18%);
-    -webkit-transform: translate(-50%, -18%);
-}
+    div.about-image {
+        display: none;
+    }
 
-div.top-bar-wrapper {
-    padding: 0 2%;
-    background: #242d36;
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    position: relative;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #c9544b;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: #c9544b;
-}
+    header#site-banner.site-header {
+        display: flex;
+        position: relative;
+        margin-top: 45px;
+    }
 
+        header#site-banner.site-header::before {
+            background: #c9544b;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: 50%;
+            margin: 0 auto;
+            width: 210px;
+            height: 210px;
+        }
 
-    div.top-bar-wrapper::after {
+        header#site-banner.site-header::before {
+            background: #c9544b;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: 50%;
+            margin: 0 auto;
+            width: 210px;
+            height: 210px;
+        }
+
+    .top-bar-wrapper::after, .site-header::before {
+        -ms-transform: translate(-50%,-18%);
+        transform: translate(-50%, -18%);
+        -webkit-transform: translate(-50%, -18%);
+    }
+
+    div.top-bar-wrapper {
+        padding: 0 2%;
         background: #242d36;
-        border-radius: 50%;
-        content: "";
-        display: block;
-        position: absolute;
-        top: 2px;
-        left: 50%;
         margin: 0 auto;
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        border-top-style: solid;
+        border-top-width: 5px;
+        border-top-color: #c9544b;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: #c9544b;
     }
 
-div.logo {
-    order: 2;
-    width: 25%;
-    margin: 0 auto;
-    padding: .8em 0;
-    justify-content: center;
-    z-index: 1;
-}
+
+        div.top-bar-wrapper::after {
+            background: #242d36;
+            border-radius: 50%;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 2px;
+            left: 50%;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+        }
+
+    div.logo {
+        order: 2;
+        width: 25%;
+        margin: 0 auto;
+        padding: .8em 0;
+        justify-content: center;
+        z-index: 1;
+    }
 
 
-h1.logo-header a {
-    display: block;
-    font-size: 48px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 0px;
-    text-decoration: none;
-    text-align: center;
-}
-nav#site-navigation.main-navigation-left {
-    order: 1;
-    margin: 0 auto;
-    width: 40%;
-}
+    h1.logo-header a {
+        display: block;
+        font-size: 48px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 0px;
+        text-decoration: none;
+        text-align: center;
+    }
 
-nav#site-navigation.main-navigation-right {
-    order: 3;
-    width: 40%;
-    margin: 0 auto;
-    
-}
+    nav#site-navigation.main-navigation-left {
+        order: 1;
+        margin: 0 auto;
+        width: 40%;
+    }
 
-li#menu-item-1.menu-item-left {
-    width: 50%;
-}
+    nav#site-navigation.main-navigation-right {
+        order: 3;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    li#menu-item-1.menu-item-left {
+        width: 50%;
+    }
 
 
 
-ul.menu-nav-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 2.5em;
-}
+    ul.menu-nav-menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        padding-top: 2.5em;
+    }
 
-#header-menu-left li {
-    float: left;
-    padding-top:5px;
-}   
+    #header-menu-left li {
+        float: left;
+        padding-top: 5px;
+    }
 
-#header-menu-right li {
-    float: right;
-    padding-top:5px;
-}
+    #header-menu-right li {
+        float: right;
+        padding-top: 5px;
+    }
 
-li a {
-    padding: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-}
+    li a {
+        padding: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
 
-div#precontent.buffercontent {
-    background-color: antiquewhite;
-    display: block;
-    height: 50px;
-    z-index: -1;
-}
+    div#precontent.buffercontent {
+        background-color: antiquewhite;
+        display: block;
+        height: 50px;
+        z-index: -1;
+    }
 
-div#content.main-content {
-    display: block;
-}
-div.main-area-wrapper {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    position: relative;
-    background-color: antiquewhite;
+    div#content.main-content {
+        display: block;
+    }
+
+    div.main-area-wrapper {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-color: antiquewhite;
+    }
 }
