@@ -183,7 +183,7 @@ div.about-image {
 }
 
 div.resume-wrapper{
-    padding-left:18%;
+    padding-left:10%;
     padding-top:5%;
 }
 
@@ -206,5 +206,11 @@ h1.resume-title {
 
 div.project-content {
     width: 40%;
-   padding-left:10%;
+    padding-left: 10%;
 }
+
+div.Contact-content {
+    width: 40%;
+    padding-left: 10%;
+}
+                      }
