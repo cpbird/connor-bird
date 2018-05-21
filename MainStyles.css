@@ -123,47 +123,65 @@ h1.logo-header a {
     text-align: center;
 }
 
-nav#site-navigation.main-navigation-left {
-    order: 1;
-    margin: 0 auto;
-    width: 40%;
-}
+@media only screen and (min-width: 768px) {
+    nav#site-navigation.main-navigation-left {
+        order: 1;
+        margin: 0 auto;
+        width: 40%;
+    }
 
     nav#site-navigation.main-navigation-right {
         order: 3;
         width: 40%;
         margin: 0 auto;
     }
-@media only screen and (min-width: 1000px) {
-    li#menu-item-1.menu-item-left {
-    width: 50%;
 }
-    li#menu-item-4.menu-item-right {
-        width: 50%;
+    nav#site-navigation.main-navigation-left {
+        order: 1;
+        margin: 0 auto;
+       
     }
-}
+
+    nav#site-navigation.main-navigation-right {
+        order: 3;
+       
+        margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        li#menu-item-1.menu-item-left {
+            width: 50%;
+        }
+
+        li#menu-item-4.menu-item-right {
+            width: 50%;
+        }
+    }
+
     ul.menu-nav-menu {
         list-style-type: none;
         margin: 0;
-       
     }
-@media only screen and (max-width:768) {
-    ul.menu-nav-menu {
-        padding-top: 0em;
+
+    @media only screen and (max-width:768) {
+        ul.menu-nav-menu {
+            padding-top: 0em;
+        }
     }
-}
 
     #header-menu-left li {
         float: left;
     }
-    #header-menu-right li{
-        float:left;
-    }
-@media only screen and (min-width: 768px) {
+
     #header-menu-right li {
-        float: right;
+        float: left;
     }
-}
+
+    @media only screen and (min-width: 768px) {
+        #header-menu-right li {
+            float: right;
+        }
+    }
 
     li a {
         padding: 50px;
@@ -230,7 +248,7 @@ nav#site-navigation.main-navigation-left {
         }
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         div.about-image {
             display: none;
         }
