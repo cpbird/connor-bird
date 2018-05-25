@@ -93,7 +93,7 @@ header#site-banner.site-header {
     position: relative;
 }
 div.top-bar-wrapper {
-    padding: 0 2%;
+    padding: 0 10%;
     background: #242d36;
     margin: 0 auto;
     width: 100%;
@@ -111,8 +111,13 @@ div.logo {
     margin: 0 auto;
     justify-content: center;
     z-index: 1;
+   
 }
-
+@media only screen and (max-width:768) {
+    div.logo {
+        margin-left: 25%;
+    }
+}
 h1.logo-header a {
     display: block;
     font-size: 48px;
@@ -281,10 +286,13 @@ h1.logo-header a {
         padding-left: 10%;
     }
 
-    div.Contact-content {
-        width: 40%;
+    div.Contact-content {   
         padding-left: 10%;
     }
 
-
+@media only screen and (max-width: 768px) {
+    div.resume-wrapper {
+        display: none;
+    }
+}
 
