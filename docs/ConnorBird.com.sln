@@ -13,16 +13,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{3F020A84-E734-4654-90C4-F527CFCA6217}"
 	ProjectSection(SolutionItems) = preProject
 		Projects\index.html = Projects\index.html
+		MainStyles.css = MainStyles.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{213B112E-6DEB-4987-9348-0E531EEAAAC5}"
 	ProjectSection(SolutionItems) = preProject
 		Contact\index.html = Contact\index.html
+		MainStyles.css = MainStyles.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resume", "Resume", "{22F74FEA-2A4C-487D-9544-8D0C7CA96FC1}"
 	ProjectSection(SolutionItems) = preProject
 		Resume\index.html = Resume\index.html
+		MainStyles.css = MainStyles.css
 	EndProjectSection
 EndProject
 Global
