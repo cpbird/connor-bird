@@ -6,7 +6,7 @@
     }
 
 
-@media only screen and (min-width: 768px) {
+
     header#site-banner.site-header {
         display: flex;
         position: relative;
@@ -85,50 +85,10 @@
         margin: 0;
         padding-top: 2.5em;
     }
-}
 
 
-header#site-banner.site-header {
-    display: flex;
-    position: relative;
-}
-div.top-bar-wrapper {
-    padding: 0 10%;
-    background: #242d36;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #c9544b;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: #c9544b;
-}
-div.logo {
-    order: 2;
-    width: 20%;
-    margin: 0 auto;
-    justify-content: center;
-    z-index: 1;
-   
-}
-@media only screen and (max-width:768) {
-    div.logo {
-        margin-left: 25%;
-    }
-}
-h1.logo-header a {
-    display: block;
-    font-size: 48px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 0px;
-    text-decoration: none;
-    text-align: center;
-}
 
-@media only screen and (min-width: 768px) {
+
     nav#site-navigation.main-navigation-left {
         order: 1;
         margin: 0 auto;
@@ -140,53 +100,27 @@ h1.logo-header a {
         width: 40%;
         margin: 0 auto;
     }
-}
-    nav#site-navigation.main-navigation-left {
-        order: 1;
-        margin: 0 auto;
-       
-    }
 
-    nav#site-navigation.main-navigation-right {
-        order: 3;
-       
-        margin: 0 auto;
-    }
 
-    @media only screen and (min-width: 1000px) {
-        li#menu-item-1.menu-item-left {
-            width: 50%;
-        }
-
-        li#menu-item-4.menu-item-right {
-            width: 50%;
-        }
-    }
+    
+      
 
     ul.menu-nav-menu {
         list-style-type: none;
         margin: 0;
     }
 
-    @media only screen and (max-width:768) {
-        ul.menu-nav-menu {
-            padding-top: 0em;
-        }
-    }
+   
 
     #header-menu-left li {
         float: left;
     }
 
     #header-menu-right li {
-        float: left;
+        float: right;
     }
 
-    @media only screen and (min-width: 768px) {
-        #header-menu-right li {
-            float: right;
-        }
-    }
+   
 
     li a {
         padding: 50px;
@@ -197,14 +131,14 @@ h1.logo-header a {
     }
 
 
-    @media only screen and (min-width: 768px) {
-        div#precontent.buffercontent {
-            background-color: #2e4453;
-            display: block;
-            height: 50px;
-            z-index: -1;
-        }
-    }
+
+div#precontent.buffercontent {
+    background-color: #242d36;
+    display: block;
+    height: 50px;
+    z-index: -1;
+}
+    
 
     div#content.main-content {
         display: block;
@@ -218,12 +152,12 @@ h1.logo-header a {
         background-color: antiquewhite;
     }
 
-    @media only screen and (min-width: 768px) {
+  
         div.about-website {
             text-align: center;
             width: 50%;
         }
-    }
+    
 
     header.about-header {
         padding: 3.2em 0 1.6em;
@@ -245,19 +179,15 @@ h1.logo-header a {
             text-decoration: none;
         }
 
-    @media only screen and (min-width: 768px) {
+    
         div.about-image {
             width: 50%;
             margin-top: 3em;
             margin-left: 5em;
         }
-    }
+    
 
-    @media only screen and (max-width: 768px) {
-        div.about-image {
-            display: none;
-        }
-    }
+    
 
     div .resume-wrapper {
         padding-left: 10%;
@@ -290,9 +220,5 @@ h1.logo-header a {
         padding-left: 10%;
     }
 
-@media only screen and (max-width: 768px) {
-    div.resume-wrapper {
-        display: none;
-    }
-}
+
 
