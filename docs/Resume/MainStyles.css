@@ -199,7 +199,7 @@ h1.logo-header a {
 
     @media only screen and (min-width: 768px) {
         div#precontent.buffercontent {
-            background-color: antiquewhite;
+            background-color: #2e4453;
             display: block;
             height: 50px;
             z-index: -1;
